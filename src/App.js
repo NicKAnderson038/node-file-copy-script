@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import MDX from "./ENV/src";
-const { TestFunc1, TestFunc2, TestFunc3, TestFunc4 } = MDX;
+const { TestFunc1, TestFunc2, TestFunc3, TestFunc4, TestFunc5 } = MDX;
 function App() {
   return (
     <div className="App">
@@ -13,6 +13,7 @@ function App() {
           <TestFunc2 />
           <TestFunc3 />
           <TestFunc4 />
+          <TestFunc5 />
         </Suspense>
       </header>
     </div>
